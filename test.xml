@@ -1,0 +1,9 @@
+<config>
+    <comment>a multiline comment.</comment>
+    <array>
+        <value>value1</value>
+        <value>value2</value>
+    </array>
+    <constant name="myVariable">123</constant>
+    <expression value1="myVariable" value2="1" operation="+"/>
+</config>
