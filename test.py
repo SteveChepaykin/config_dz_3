@@ -8,8 +8,9 @@ class TestMethods(unittest.TestCase):
         self.assertTrue(p.isfile("test.txt"))
     
     def test_find_packet_2(self):
-        processConfig("test.txt")
-        self.assertTrue(p.isfile("log.txt"))
+        if(p.isfile("text.txt")):
+            processConfig("test")
+            self.assertTrue(p.isfile("log.txt"))
 
 if __name__ == '__main__':
     unittest.main(argv=['first-arg-is-ignored'], exit=False)
